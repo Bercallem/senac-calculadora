@@ -4,8 +4,11 @@ print("Ola", nome, ", seja bem vindo a calculadora.\nSelecione a operacao que de
 
 operacao= int(input("Para somar (+) digite 1\nPara subtrair (-) digite 2\nPara multiplicar (x) digite 3\nPara dividir (/) digite 4\n"))
 
-if operacao>= 5:
+operacao>= 5
+while operacao != 2:
     print("Opcao invalida, digite novamente")
+    break
+operacao
 
 num1= int(input("Agora digite o primeiro valor da operacao\n"))
           
